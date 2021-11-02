@@ -50,7 +50,7 @@ AppAsset::register($this);
             . '</li>';
     }
     echo Nav::widget([
-        'options' => ['class' => 'navbar-nav'],
+        'options' => ['class' => 'navbar-nav ms-auto'],
         'items' => $menuItems,
     ]);
     NavBar::end();
@@ -67,10 +67,10 @@ AppAsset::register($this);
     </div>
 </main>
 
-<footer class="footer mt-auto py-3 text-muted">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-auto">
     <div class="container">
-        <p class="float-left">&copy; <?= Html::encode(Yii::$app->name) ?> <?= date('Y') ?></p>
-        <p class="float-right"><?= Yii::powered() ?></p>
+        <p class="float-start text-muted">&copy; <?= Html::encode(Yii::$app->name) ?> <?= date('Y') ?></p>
+        <p class="float-end text-muted"><?= Yii::powered() ?></p>
     </div>
 </footer>
 
