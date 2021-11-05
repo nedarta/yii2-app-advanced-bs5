@@ -1,8 +1,8 @@
 {
-    "name": "yiisoft/yii2-app-advanced",
-    "description": "Yii 2 Advanced Project Template",
-    "keywords": ["yii2", "framework", "advanced", "project template"],
-    "homepage": "http://www.yiiframework.com/",
+    "name": "nedarta/yii2-app-advanced-bs5",
+    "description": "Yii 2 Advanced Project Template with Twitter Bootstrap 5",
+    "keywords": ["yii2", "framework", "advanced", "project template", "twitter bootrap 5"],
+    "homepage": "https://www.nedarta.com/",
     "type": "project",
     "license": "BSD-3-Clause",
     "support": {
@@ -15,7 +15,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.6.0",
-        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2": "~2.0.30",
         "yiisoft/yii2-bootstrap5": "^2.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0"
     },
